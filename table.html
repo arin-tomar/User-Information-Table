@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic HTML Table</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+      color: #333;
+    }
+
+    table {
+      width: 80%;
+      max-width: 700px;
+      margin: 30px auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      background-color: white;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 15px 0;
+      color: #444;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #009879;
+      color: #ffffff;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f3f3f3;
+    }
+
+    tr:hover {
+      background-color: #d1e7dd;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Sample Data</caption>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">City</th>
+    </tr>
+    <tr>
+      <td>Amit Sharma</td>
+      <td>22</td>
+      <td>Delhi</td>
+    </tr>
+    <tr>
+      <td>Neha Verma</td>
+      <td>24</td>
+      <td>Mumbai</td>
+    </tr>
+  </table>
+</body>
+</html>
